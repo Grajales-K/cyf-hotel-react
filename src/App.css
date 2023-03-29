@@ -8,14 +8,36 @@
 }
 
 .App-header {
-  background-color: #222;
-  height: 50px;
-  padding: 20px;
-  color: white;
-  text-align: left;
+  background-color: rgb(4, 3, 3);
+  height: 9rem;
+  /* background-image: url("/img/header\ pic.avif"); */
+  /* object-fit: cover; */
+  /* background-size: cover; */
+  /* background-repeat: no-repeat; */
+  /* background-position: center; */
+  display: flex;
+  justify-content:left;
+  align-items: center;
+  width: 100%;
+  color: rgb(173, 150, 22);
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 1em;
+  font-size: 1.5em;
   font-weight: bold;
+  padding: 10px;
+  width: 100%;
+}
+
+.Header-logo{
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+  width: 40%;
+
+} 
+
+
+.img-icon{
+  height: 9rem;
 }
 
 .App-title {

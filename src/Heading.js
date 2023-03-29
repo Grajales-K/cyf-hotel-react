@@ -2,10 +2,13 @@ import React from "react";
 
 const Heading = () => {
 return (
-<header className="App-header">CYF Hotel
-    <img 
-    alt="Hotel Picture"
-    src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/03/9c/3b/c7/esterno.jpg?w=700&h=-1&s=1"/>
+<header className="App-header">
+    <div className="Header-logo">
+        <img className="img-icon"
+        alt="Hotel Picture"
+        src="https://marketplace.canva.com/EAE0d_FW6ZA/1/0/1600w/canva-retro-vector-gold-frames-luxury-decorative-logo-template-uDFt-cAE2ug.jpg"/>
+    </div>
+    <p>LUXURIOUS CYF HOTEL</p>
 </header>
 )
 };
